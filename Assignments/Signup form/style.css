@@ -1,0 +1,44 @@
+*{
+    background-color: #000; 
+}
+.main{
+  margin: 30px;
+}
+.title{
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 77px;
+    color: #FFFFFF;
+}
+
+input[type="text"], input[type="email"], input[type="date"]{
+    border: none;
+    width: 65%;
+    color: white;
+    height: 33px;
+    border-bottom: 2px solid white;
+    margin: 6px 0px;
+    font-size: 16px;
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus{
+    outline: none;
+}
+
+input[type="text"]::placeholder, input[type="email"]::placeholder, input[type="date"]::placeholder{
+    color: white;
+}
+
+input[type="radio"]{
+    appearance: none;
+    border: 1px solid white;
+    background-color: black;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+}
+
+.label{
+    font-size: 17px;
+    color: white;
+    margin: 0px 14px; 
+}
