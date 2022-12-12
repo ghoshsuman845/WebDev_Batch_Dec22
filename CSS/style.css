@@ -1,0 +1,76 @@
+/* Universal selectors : 0 specificity */
+*{
+    color: brown;
+}
+
+/* tag selectors: 1 specificity */
+p{
+    color: green;
+}
+
+/* pseudo-element selectors: 1 specificity */
+p::before{
+    content: '*';
+    color: darkgreen;
+}
+
+/* class selectors: 10 specificity */
+a.spec.spec-1{
+    color: blue;
+}
+a.spec.spec-2{
+    color: green;
+}
+a.spec.spec-3{
+    color: red;
+}
+.spec{
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+/* pseudo-class selectors: 10 specificity */
+:hover{
+    color: green;
+}
+
+:hover{
+    color:red;
+}
+
+/* attribute selectors : 10 specificity  */
+[href="#"]{
+    color: yellow;
+}
+
+/* id selectors: 100 specificity */
+#specificity{
+    color: pink;
+}
+a#specificity{
+    color: gold;
+}
+
+/* inline css: 1000 specificity 
+!important rule: 10,000 specificity */
+
+ul li:nth-child(2n){
+    color: red;
+}
+
+::marker{
+    text-align: end!important;
+    text-align-last: end!important;
+}
+
+/* Inheritance */
+.inherit-div{
+    color: pink;
+    font-size: 20px;
+}
+
+.inherit-div h1{
+    font-size: inherit;
+    color: inherit;
+}
