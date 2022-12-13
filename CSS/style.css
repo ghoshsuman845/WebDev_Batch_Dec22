@@ -74,3 +74,45 @@ ul li:nth-child(2n){
     font-size: inherit;
     color: inherit;
 }
+
+/* box-model and box-sizing */
+.box{
+   width: 300px;
+   height: 100px;
+   border: 5px solid black;
+   box-sizing: border-box;
+    /* TRBL: 10px
+    padding: 10px;
+    margin: 10px; */
+    /* TB:10px , LR: 20px */
+    /* padding: 10px 20px; */
+    /* T: 5px, R: 4px, B: 10px, L: 15px */
+    /* margin: 5px 4px 10px 15px; */
+}
+
+.box-1{
+   width: 300px;
+   height: 100px;
+   border: 5px solid black;
+   padding: 10px;
+   box-sizing: border-box;
+}
+
+/* display: inline, block, inline-block */
+span{
+    display: block;
+}
+
+div{
+    display: inline-block;
+}
+
+.nav{
+    background-color: aliceblue;
+}
+.nav li{
+    display: inline-block;
+    padding: 5px;
+}
+
+
