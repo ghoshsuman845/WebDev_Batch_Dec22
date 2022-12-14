@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positions in CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+         .parent{
+            height: 200vh;
+            background-color: yellow;
+            color: black;
+            padding: 30px;
+        }
+        .child{
+            padding: 30px;
+        }
+        .child-one{
+            background-color: red;
+        }
+        .child-two{
+            background-color: green;
+        }
+        .child-three{
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>CSS Positions</h1>
+        <ol>
+            <li>Static: The original or default position of an element.</li>
+            <li>Relative:Positions an element relative to it's normal/original position. In this case, we can add offset values to move the element. Element stays in the normal document flow.</li>
+            <li>Absolute: Element is removed from the normal document flow, no space is created for that element. Positions relative to its parent. If no parent present then positions itself relative to the main document.</li>
+            <li>Fixed: Elements are positioned relative to the viewport. Element does not move and stays in the same position even on scrolling. Element is removed from normal flow.</li>
+            <li>Sticky: Element is positioned according to normal document flow. Till the element hits the top, it has normal position, after it touches the top, then it's position becomes fixed.</li>
+        </ol>
+    </div>
+        <div class="parent">
+        Parent
+            <div class="child child-one">One</div>
+            <div class="child child-two">Two</div>
+            <div class="child child-three">Three</div>
+        </div>    
+</body>
+</html>

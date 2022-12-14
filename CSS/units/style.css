@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+
+}
+.container{
+    width: 100vw;
+    font-size: 20px;
+    border: 2px solid black;  
+}
+
+p{
+    font-size: 2rem;
+}
