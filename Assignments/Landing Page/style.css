@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 35px;
+    position: sticky;
+    top: 0;
+}
+
+.header .logo h1{
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 29px;
+}
+.header .items{
+    display: flex;
+    align-items: center;
+}
+
+.items .item{
+    padding: 0px 20px;
+}
+
+.items .item a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-section{
+    display: flex;
+    margin: 53px 0px;
+}
+.flex-section .left{
+    width: 50%;
+    padding: 0px 38px;
+}
+
+.left h1{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 77px;
+}
+
+.left p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.left button{
+    margin-top: 35px;
+    background: #000;
+    color: #fff;
+    padding: 13px 49px;
+    border: 1px solid black;
+    font-size: 16px;
+}
+
+.flex-section .right{
+    width: 50%;
+}
+
+.flex-section .right img{
+    width: 95%;
+}
+
+.flex-images{
+    display: flex;
+    flex-direction: column;
+}
+.flex-images .heading h1{
+    margin: 25px 70px;
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+}
+
+.image-container .image img{
+    width: 433px;
+}
