@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic IMDB</title>
+    <style>
+        #btn{
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+        #btn:hover{
+            background-color: yellow;
+            color: black;
+            border-radius: 30px;
+        }
+        .questions{
+            background-color: #f8fffe;
+             height: 50px;
+            margin-top: 20px;
+             padding: 15px; 
+             max-width: 600px; 
+             border-left: 8px solid green;
+        }
+        .holder{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .item{
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        RRR
+        <nav>
+            <a href="#actor" id="nav-actor">Actors</a>
+            <a href="#" id="nav-quote">Quotes</a>
+        </nav>
+    </header>
+    <summary>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et voluptatem sit sed nisi deleniti fuga, consequatur autem quod similique voluptates commodi quae eius dolorem expedita officiis non totam soluta exercitationem quia maiores dolorum? Animi soluta consequatur labore quo ipsam ipsum officia dolores dolorum explicabo quae asperiores aliquid a suscipit beatae, optio illo unde enim at, ipsa necessitatibus magni maxime quod architecto rem? Sequi, modi architecto! Incidunt eum optio doloribus, quos quam corporis, cum voluptas eos velit, sint nulla aspernatur delectus corrupti? Id eaque tempore nisi ratione, ea nostrum accusantium totam optio, et nemo omnis officiis quaerat quidem corporis tempora adipisci.
+    </summary>
+    <section id="actor">
+        <p>Alia Bhatt</p>
+        <p>Ram Charan</p>
+        <p>Junior NTR</p>
+    </section>
+    <section id="quote">
+        <p>Nato natoooooo.......</p>
+    </section>
+    <aside>
+        <p>Rating : 9/10</p>
+        <p>Date of Release: 10th Dec 2022</p>
+    </aside>
+    <footer>
+        Produced by: &lt Suman &gt
+    </footer>
+
+    <button id="btn">Submit button</button>
+
+    <blockquote class="questions">
+        <p>Who was the first female to become the governor of an Indian state?</p>
+    </blockquote>
+
+    <!-- Job Form -->
+    <select name="laptop" id="laptop" required>
+        <option value="Apple"> Apple</option>
+        <option value="asus">Asus</option>
+        <option value="HP">HP</option>
+    </select>
+  <!-- Place the Item - 1 -->
+    <div class="holder">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+    </div>
+
+    <!-- Myntra Size Chart -->
+    <table>
+        <thead>
+            <tr>
+                <th>Part</th>
+                <th>XS</th>
+                <th>S</th>
+                 <th>M</th>
+                <th>L</th>
+                <th>XL</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Waist</td>
+                <td>25</td>
+                <td>28</td>
+                <td>31</td>
+                <td>32</td>
+                <td>34</td>
+
+            </tr>
+            <tr>
+                <td>Chest</td>
+                <td>25</td>
+                <td>28</td>
+                <td>31</td>
+                <td>32</td>
+                <td>34</td>
+
+            </tr>
+            <tr>
+                <td>Sleeve</td>
+               <td>25</td>
+                <td>28</td>
+                <td>31</td>
+                <td>32</td>
+                <td>34</td>
+
+            </tr>
+
+        </tbody>
+    </table>
+
+
+    <!-- Block or Inline -->
+
+    <div data-ns-test="block-inline-button">
+        <button>Test1</button>
+        <button>Test2</button>
+        Answer: Inline    
+    </div>
+    <div data-ns-test="block-inline-div">
+        <div>Test1</div>
+        <div>Test2</div>
+        Answer: Block
+    </div>
+    <div data-ns-test="block-inline-span">
+        <span>Test1</span>
+        <span>Test2</span>
+        Answer: Inline
+    </div>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+.item{
+    background-color: lightcyan;
+    border: 1px solid black;
+}
+
+.container{
+    display: grid;
+    background-color: yellow;
+    grid-template-columns: repeat(3,100px);
+    height: 200px;
+    /* gap: 10px; */
+    row-gap: 10px ;
+    column-gap: 20px;
+    /* justify-items: end;
+    align-items: start; */
+    /* place-items: start end; */
+    /* justify-content: space-around; */
+    align-content: flex-start;
+
+
+    /* grid-template-rows: 200px 300px 300px; */
+}
