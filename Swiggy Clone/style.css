@@ -354,6 +354,13 @@
 
 
 @media screen and (min-width: 382px) and (max-width:480px) {
+      .global-nav .nav{
+        flex-direction: column;
+        height: 160px;
+    }
+     .container .item-bar, .restaurant-list{
+        margin-top: 60px;
+    }
     .restaurant-list{
         grid-template-columns: repeat(2,50%);
     }

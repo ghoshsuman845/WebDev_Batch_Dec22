@@ -1,0 +1,35 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    animation: changeColor 5s ease 2s infinite normal;
+    -webkit-animation: changeColor 5s ease 2s infinite normal;
+    /* animation-name: changeColor;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both; */
+    /* ease: slow, fast, slow, 
+    linear: speed remains same,
+    ease-in: slow start,
+    ease-out: slow end,
+    ease-in-out: slow end and start, 
+    cubic-bezier(n,n,n,n):  */
+    /* animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); */
+}
+
+@keyframes changeColor{
+    0%{
+        transform: scaleX(0);
+    }
+    50%{
+        transform: scaleX(2);
+    }
+    75%{
+        transform: scaleX(3);
+    }
+    100%{
+         transform: scaleX(0);
+    }
+}
